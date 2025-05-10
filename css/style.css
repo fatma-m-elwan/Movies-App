@@ -1,0 +1,43 @@
+*{
+  scroll-padding-top: 2rem;
+}
+/* custom scroll bar */
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--text-color);
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #ff2c1f;
+  border-radius: 5rem;
+}
+/* custom scroll bar */
+:root {
+  --text-color:#020307;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/* Navbar */
+header.shadow {
+  background-color: #fff;
+  box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+}
+header.shadow .navbar a {
+  color: var(--text-color);
+}
+header.shadow .logo  {
+  color: var(--text-color);
+}
+/* Navbar */
+
+/* Resbonsive */
+@media (max-width:1024px) {
+  header.shadow #menu-icon {
+    color: var(--text-color);
+  }
+  .navbar.active {
+    top: 100%;
+  }
+ 
+}
+/* Resbonsive */
